@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Tanuj, a Computer Science student specializing in AI and Machine Learning.">
+  <title>Tanuj | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+
+  <header id="home">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <h1>TANUJ</h1>
+
+    <p class="tagline">
+      AI & Machine Learning Undergraduate |
+      Building Intelligent Multi-Agent Workflows & Data-Driven Solutions
+    </p>
+
+    <div class="profile-links">
+      <a href="https://github.com/Tanuj-X"
+         target="_blank" rel="noopener noreferrer">
+        GitHub Profile
+      </a>
+      <a href="#projects">Explore Projects</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+
+      <div class="about-layout">
+        <img
+          class="profile-photo"
+          src="tanuj.png"
+          alt="Portrait of Tanuj"
+          width="180"
+          height="180"
+        >
+
+        <p>
+          I am an undergraduate Computer Science student specializing in
+          Artificial Intelligence and Machine Learning. I am interested in
+          Python programming, data-driven solutions, problem-solving, and
+          exploring AI technologies. I enjoy learning through practical
+          projects and continuously improving my technical skills.
+        </p>
+      </div>
+    </section>
+
+    <section id="education" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+
+      <article class="education-card">
+        <h3>B.Tech — Computer Science and Engineering</h3>
+        <p><strong>Specialization:</strong> Artificial Intelligence and Machine Learning</p>
+        <p><strong>Institution:</strong> JECRC</p>
+        <p>
+          <strong>Academic status:</strong>
+          Undergraduate student
+        </p>
+      </article>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+
+      <ul class="skill-list">
+        <li>C++</li>
+        <li>C</li>
+        <li>Python</li>
+        <li>Agentic AI</li>
+        <li>Data Structures and Algorithms</li>
+      </ul>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+
+      <p>Explore my projects by name or technology.</p>
+
+      <label class="search-label" for="projectSearch">
+        Search projects
+      </label>
+      <input
+        type="search"
+        id="projectSearch"
+        class="project-search"
+        placeholder="Try Python, quiz, or reading list..."
+        autocomplete="off"
+      >
+
+      <div class="filter-controls" aria-label="Filter projects by technology">
+        <button type="button" class="filter-button active"
+                data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="filter-button"
+                data-filter="python" aria-pressed="false">Python</button>
+        <button type="button" class="filter-button"
+                data-filter="web" aria-pressed="false">Web</button>
+        <button type="button" class="filter-button"
+                data-filter="quiz" aria-pressed="false">Quiz</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+
+        <article class="project-card"
+                 data-title="python programs collection factorial fibonacci structure to dictionary"
+                 data-tech="python">
+          <h3>Python Programs Collection</h3>
+          <p>
+            A collection of beginner Python programming exercises covering
+            factorial calculation, the Fibonacci sequence, and structure-to-dictionary conversion.
+          </p>
+          <div class="tech-tags">
+            <span>Python</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tanuj-X/python-basics-25BCON1335-fibonacci"
+               target="_blank" rel="noopener noreferrer">Fibonacci</a>
+
+            <a href="https://github.com/Tanuj-X/pyhton-basics-25BCON1335-factorial"
+               target="_blank" rel="noopener noreferrer">Factorial</a>
+
+            <a href="https://github.com/Tanuj-X/python-basics-25BCON1335-struct-to-dict"
+               target="_blank" rel="noopener noreferrer">Struct to Dict</a>
+          </div>
+        </article>
+
+        <article class="project-card"
+                 data-title="messy python code improvement refactoring"
+                 data-tech="python">
+          <h3>Messy Python Code Improvement</h3>
+          <p>
+            A Python code-improvement exercise focused on making existing
+            code easier to read and understand.
+          </p>
+          <div class="tech-tags">
+            <span>Python</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tanuj-X/correcting-grade-25BCON1335"
+               target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </article>
+
+        <article class="project-card"
+                 data-title="bug fixing in python debugging cursor ai"
+                 data-tech="python">
+          <h3>Bug Fixing in Python</h3>
+          <p>
+            A project documenting Python bug-fixing work.
+            Review the repository for the specific bugs and solutions.
+          </p>
+          <div class="tech-tags">
+            <span>Python</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tanuj-X/bug-fix"
+               target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </article>
+
+        <article class="project-card"
+                 data-title="interactive quiz application quiz"
+                 data-tech="web quiz">
+          <h3>Interactive Quiz Application</h3>
+          <p>
+            A quiz project. Visit the repository to inspect its questions,
+            interface, and implemented functionality.
+          </p>
+          <div class="tech-tags">
+            <span>Quiz</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tanuj-X/QUIZ"
+               target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </article>
+
+        <article class="project-card"
+                 data-title="book reading list reading list application"
+                 data-tech="web">
+          <h3>Book Reading List</h3>
+          <p>
+            A reading-list project for organizing information about books.
+            Visit the repository for its actual implementation and features.
+          </p>
+          <div class="tech-tags">
+            <span>Reading List</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tanuj-X/reading_list"
+               target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </article>
+
+      </div>
+
+      <p id="noProjectsMessage" class="no-results" hidden>
+        No projects found. Try another search or filter.
+      </p>
+    </section>
+
+    
+<section id="weather" aria-labelledby="weather-heading">
+  <div class="weather-shell">
+    <div class="weather-intro">
+      <span class="weather-eyebrow">LIVE WEATHER</span>
+      <h2 id="weather-heading">Weather, anywhere.</h2>
+      <p>Check the temperature and conditions in your city.</p>
+    </div>
+
+    <label for="cityInput">Your city</label>
+
+    <div class="weather-controls">
+      <input
+        type="text"
+        id="cityInput"
+        placeholder="Search a city, e.g. Jaipur"
+        value="Jaipur"
+        maxlength="80"
+        autocomplete="off"
+      >
+      <button type="button" id="weatherButton">Get Weather ↗</button>
+    </div>
+
+    <div class="weather-quick-cities" aria-label="Popular cities">
+      <button type="button" class="weather-city-chip" data-city="Jaipur">Jaipur</button>
+      <button type="button" class="weather-city-chip" data-city="Delhi">Delhi</button>
+      <button type="button" class="weather-city-chip" data-city="Mumbai">Mumbai</button>
+    </div>
+
+    <div id="weatherResult" aria-live="polite" aria-atomic="true">
+      <p class="weather-placeholder">Your weather report will appear here.</p>
+    </div>
+
+    <p class="weather-footer">Powered by OpenWeather</p>
+  </div>
+</section>
+
+
+   
+<!-- Floating AI launcher -->
+<button
+  type="button"
+  id="aiChatToggle"
+  class="ai-chat-launcher"
+  aria-label="Open AI assistant"
+  aria-controls="ai-chat"
+  aria-expanded="false"
+>
+  <span class="launcher-orb" aria-hidden="true">
+    <span class="launcher-orb-core"></span>
+  </span>
+  <span class="launcher-label">Ask AI</span>
+</button>
+
+<!-- Floating AI chat window -->
+<section
+  id="ai-chat"
+  class="ai-chat ai-chat-panel"
+  aria-label="Tanuj's AI assistant"
+  aria-hidden="true"
+  inert
+>
+  <div class="ai-panel-header">
+    <div class="ai-profile">
+      <div class="ai-mini-orb" aria-hidden="true">
+        <span></span>
+      </div>
+      <div class="ai-profile-info">
+        <h2>Tanuj's AI</h2>
+        <p><span class="online-dot"></span> Online assistant</p>
+      </div>
+    </div>
+    <button type="button" id="aiChatClose" class="ai-icon-button" aria-label="Close AI assistant">&#10005;</button>
+  </div>
+
+  <div class="ai-welcome">
+    <div class="ai-welcome-orb" aria-hidden="true">
+      <span class="welcome-orb-core"></span>
+      <span class="welcome-orb-ring ring-one"></span>
+      <span class="welcome-orb-ring ring-two"></span>
+    </div>
+    <p class="ai-eyebrow">YOUR PERSONAL PORTFOLIO GUIDE</p>
+    <h3>Hey there! 👋</h3>
+    <p>I'm Tanuj's AI assistant. Ask me about his projects, skills, or tech journey.</p>
+  </div>
+
+  <div class="ai-suggestions" aria-label="Suggested questions">
+    <button type="button" class="ai-suggestion" data-prompt="Tell me about Tanuj's projects.">🚀 Explore projects</button>
+    <button type="button" class="ai-suggestion" data-prompt="What programming skills does Tanuj have?">💻 Technical skills</button>
+    <button type="button" class="ai-suggestion" data-prompt="Tell me about Tanuj's AI and machine learning interests.">✨ AI &amp; machine learning</button>
+  </div>
+
+  <div id="chatMessages" class="ai-chat-messages" aria-live="polite" aria-relevant="additions" aria-label="Chat conversation"></div>
+
+  <div class="ai-chat-composer">
+    <div class="chat-controls">
+      <input type="text" id="userInput" placeholder="Ask me anything..." aria-label="Your question" maxlength="1000" autocomplete="off">
+      <button type="button" id="sendButton" aria-label="Send message"><span aria-hidden="true">&#10148;</span></button>
+    </div>
+    <p id="chatStatus" role="status" aria-live="polite"></p>
+    <p class="chat-note">AI can make mistakes. Verify important details.</p>
+  </div>
+</section>
+
+  </main>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>
+      Email:
+      <a href="mailto:tanujdangi99@gmail.com">
+        tanujdangi99@gmail.com
+      </a>
+    </p>
+    <p>
+      GitHub:
+      <a href="https://github.com/Tanuj-X"
+         target="_blank" rel="noopener noreferrer">
+        github.com/Tanuj-X
+      </a>
+    </p>
+  </footer>
+
+  <div class="theme-control">
+    <button type="button" id="themeToggle">Switch to Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+  <!-- config.js will be removed in Phase 2 after secure API endpoints are added. -->
+  <script src="chatbot.js"></script>
+  
+<script>
+(() => {
+  const toggle = document.getElementById("aiChatToggle");
+  const panel = document.getElementById("ai-chat");
+  const closeButton = document.getElementById("aiChatClose");
+  const input = document.getElementById("userInput");
+  const sendButton = document.getElementById("sendButton");
+  const suggestions = document.querySelectorAll(".ai-suggestion");
+
+  if (!toggle || !panel || !closeButton || !input || !sendButton) {
+    return;
+  }
+
+  function openChat() {
+    panel.setAttribute("aria-hidden", "false");
+    panel.removeAttribute("inert");
+    toggle.setAttribute("aria-expanded", "true");
+    toggle.setAttribute("aria-label", "Close AI assistant");
+
+    closeButton.focus();
+  }
+
+  function closeChat() {
+    panel.setAttribute("aria-hidden", "true");
+    panel.setAttribute("inert", "");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "Open AI assistant");
+
+    toggle.focus();
+  }
+
+  toggle.addEventListener("click", () => {
+    const isOpen = toggle.getAttribute("aria-expanded") === "true";
+
+    if (isOpen) {
+      closeChat();
+    } else {
+      openChat();
+    }
+  });
+
+  closeButton.addEventListener("click", closeChat);
+
+  document.addEventListener("keydown", (event) => {
+    if (
+      event.key === "Escape" &&
+      toggle.getAttribute("aria-expanded") === "true"
+    ) {
+      closeChat();
+    }
+  });
+
+  suggestions.forEach((button) => {
+    button.addEventListener("click", () => {
+      input.value = button.dataset.prompt || "";
+      input.focus();
+
+      // Use the existing chatbot send handler.
+      if (input.value.trim() && !sendButton.disabled) {
+        sendButton.click();
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
+
+</body>
+</html>
